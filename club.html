@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+
+<body>
+
+    <div class="container">
+        <header>
+            <h1>Cool Club</h1>
+        </header>
+        <div class="title-part margin-part">
+            <select name="dropdown">
+                <option disabled selected>Title</option>
+                <option>Mrs</option>
+                <option>Mr</option>
+                <option>Ms</option>
+                <option>Dr</option>
+            </select>
+        </div>
+        <div class="name-part margin-part">
+            <input class="input-text" type="text" placeholder="First name">
+            <input class="input-text" type="text" placeholder="Last name">
+        </div>
+
+        <hr class="line margin-part"/>
+        <div class="contact-part margin-part2">
+            <input class="input-text" type="text" placeholder="e-mail">
+
+            <input class="input-text" type="text" placeholder="Phone">
+
+            <div class="radio-part">
+                <label>
+                    Are you cool?
+                </label>
+                <div>
+                    <input type="radio" name="rating" value="yes">Yes
+                    <input type="radio" name="rating" value="no">No
+                </div>
+            </div>
+
+
+        </div>
+        <hr class="line margin-part"/>
+        <div class="password-part margin-part2">
+            <input class="input-text" type="password" placeholder="Password" name="psw" required>
+            <input class="input-text" type="password" placeholder="Repeat password" name="psw-repeat" required>
+        </div>
+
+        <div class="signup-part margin-part">
+        <button class="signup-btn" type="submit">Sign Up!</button>
+    </div>
+
+    </div>
+</body>
+
+</html>

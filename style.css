@@ -1,0 +1,96 @@
+body {
+   margin: 0px;
+   width: 400px;
+}
+
+header {
+   background: linear-gradient(to right, blue 0%, rgb(212, 61, 223) 80%);
+   margin-bottom: 20px;
+   border-radius: 10px 10px 0px 0px;
+}
+
+h1 {
+  color:white;
+  margin-left: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+select {
+   width: 100px;
+}
+
+.container {
+   display: grid;
+   grid-template-columns: 400px;
+   background: lightgray;
+   border-radius: 10px;
+   
+}
+
+.input-text {
+   min-width: 0px;
+   margin-top: 10px;
+}
+
+.margin-part {
+   margin-left: 20px;
+   margin-right: 20px;
+}
+
+.margin-part2 {
+   margin-left: 20px;
+   margin-right: 90px;
+}
+
+.title-part {
+   display: flex; 
+   flex-direction: row;
+   justify-content: flex-start;
+   columns: 40px;
+}
+
+.name-part {
+   display: flex; 
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.contact-part {
+   display: flex; 
+   flex-direction: column;
+   justify-content: flex-start;
+}
+
+.radio-part {
+   margin-top: 10px;
+   display: flex;
+   flex-direction: row;
+   justify-content: space-between;
+}
+
+.password-part {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+}
+
+.signup-part {
+   display: flex;
+   justify-content: flex-end;
+}
+
+.line {
+   margin-top: 25px;
+   height: 2px;
+   background-color: blueviolet;
+}
+
+.signup-btn {
+   margin-top: 10px;
+   background-color: blueviolet;
+   color: white;
+   border-radius: 5px;
+   padding: 5px 20px 5px 20px;
+   font-family:  'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   margin-bottom: 15px;
+}
